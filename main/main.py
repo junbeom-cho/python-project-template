@@ -1,2 +1,1 @@
-name = input("이름을 입력하세요")
-print(name + ", Welcome to Python")
+print("Hello, World!")
