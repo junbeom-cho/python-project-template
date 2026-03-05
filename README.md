@@ -16,3 +16,11 @@ python<version> -m venv <environment_name>
 source <environment_name>/bin/activate
 ```
 
+### 라이브러리 설치
+```bash
+# 터미널에서 프로젝트로 이동
+cd ~~~
+
+# requirements.txt를 사용한 일괄 설치
+pip install -r requirements.txt
+```
