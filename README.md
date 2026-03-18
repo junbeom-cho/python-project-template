@@ -4,28 +4,52 @@
 
 Python 프로젝트를 생성할 때 빠르게 작성할 수 있도록 도움
 
-## Usage
+## Setup
 
-### 가상환경 설정
+### macOS
 
-1. 가상환경 생성
+#### Create Venv
 
 ```bash
-python<version> -m venv <environment_name>
+python<version> -m venv venv
 ```
 
-2. 가상환경 실행
+#### Manage Venv Status
 
 ```bash
-source <environment_name>/bin/activate
+# Activate Venv
+source venv/bin/activate
+
+# Deactivate Venv
+deactivate
 ```
 
-### 라이브러리 설치
+#### Install Libraries
 
 ```bash
-# 터미널에서 프로젝트로 이동
-cd <project_path>
+pip install -r requirements.txt
+```
 
-# requirements.txt를 사용한 일괄 설치
+### Windows
+
+#### Create Venv
+
+```bash
+python -m venv venv
+```
+
+#### Manage Venv Status
+
+```bash
+# Activate Venv
+.\venv\Scripts\activate
+
+# Deactivate Venv
+deactivate
+```
+
+#### Install Libraries
+
+```bash
 pip install -r requirements.txt
 ```
