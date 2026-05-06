@@ -1,0 +1,21 @@
+name: <venv-name>
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=<version>
+  - numpy
+  - pandas
+  - geopandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - folium
+  - ipython
+  - networkx
+  - statsmodels
+  - ipykernel
+  - pip:
+      - kagglehub
+      - geodatasets
+
